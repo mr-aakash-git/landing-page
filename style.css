@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: flex-end;
+    gap: 38px;
+    list-style-type: none;
+    font-family: Roboto;
+    background-color: darkblue;
+}
+
+img {
+    height: 160px;
+    width: 190px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.fourth {
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+}
+
+.sixth {
+    text-align: center;
+    background-color: darkblue;
+}
