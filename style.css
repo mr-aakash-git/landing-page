@@ -1,6 +1,8 @@
 body {
     background-color: black;
     color: white;
+    font-family: Roboto;
+    margin: 0%;
 }
 
 .sectionOne {
@@ -10,22 +12,27 @@ body {
     list-style-type: none;
     font-family: Roboto;
     background-color: darkblue;
+    padding-top: 10px;
 }
 
 img {
     height: 160px;
     width: 190px;
+    border-radius: 20px;
 }
 
 .second {
     display: flex;
     justify-content: center;
     gap: 100px;
+    padding: 70px;
+    background-color: blue;
 }
 
 .third {
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .sectionTwo {
@@ -47,14 +54,55 @@ h3 {
 .fourth {
     text-align: center;
     background-color: darkslategray;
+    padding: 100px;
 }
 
 .fifth {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: auto;
+    gap: 200px;
+    list-style-type: none;
 }
 
 .sixth {
     text-align: center;
     background-color: darkblue;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+.introimg {
+    width: 350px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+.sectionFour {
+    list-style-type: none;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.quote {
+    font-size: 45px;
+}
+
+.quoter {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 40px;
 }
