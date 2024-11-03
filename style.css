@@ -2,6 +2,8 @@ body {
     background-color: black;
     color: white;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 .sectionOne {
@@ -12,6 +14,7 @@ body {
     font-family: Roboto;
     background-color: darkblue;
     padding-top: 10px;
+    margin: 0;
 }
 
 .options {
